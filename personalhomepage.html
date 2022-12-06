@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <!-- IIT406 - Computer Programming 3 -->
+  <!-- Shayyanne Dominiq L. Marasigan
+	 IT Faculty
+	 1st Semester, AY 2022-2023 -->
+  <!-- About Me -->	
+<head>
+    <title> About me </title>
+    <style>
+		body {
+			background-image: url("bgbgbgng.jpg");
+			background-size: cover;
+		}
+				
+		table {
+			border-spacing: 7.5px;
+		}
+		
+		th {
+			padding: 1px;
+			border: 5px solid black;
+			border-radius: 8px;
+			background-color: lavender;
+			font-family: "Arial", sans-serif;
+		}
+		
+		
+		td {
+			padding: 5px;
+			border: 3px solid black;
+			border-radius: 10px;
+			background-color: lavender;
+			font-family: "Arial", sans-serif;
+		}
+		
+		#tr1 th {
+			background-color: ivory;
+			border-spacing: 30px;
+		}
+		
+		.title {
+			background-color: lightgray;
+			color: black;
+			font-family: "Arial", sans-serif;
+			padding: 6px;
+			align-items: center;
+			margin: 15px 50px;
+			border: 5px solid black;
+			width: auto;
+		}	
+		
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		
+		figure {
+			border: 1px #cccccc solid;
+			padding: 4px;
+			margin: auto;
+		}
+		
+		figcaption {
+			position: relative;
+			background-color: lavender;
+			font-family: "Arial", sans-serif;
+			font-weight: bold;
+			font-size: 17px;
+			color: black;
+			padding: 2px;
+		}
+		
+		#imgfloat td  {
+		display: table;
+		float: left;
+		}
+		
+		.button3-container {
+			display:flex;
+			justify-content: space-between;
+		}
+
+		.button3 {
+			position: relative;
+			background-color: gray;	
+			border: 3px solid black;
+			border-radius: 4em;	
+			font-family: "Arial", sans-serif;
+			font-size: 18px;
+			font-weight: bold;
+			color: white;
+			padding: 1.5em 1.5em;
+			margin: 20px;
+			cusor: pointer;
+			user-select: none;
+			text-align: center;
+			text-decoration: none;
+			cursor: pointer;
+			transition-duration: 0.4s;
+		}
+		
+		.button3:hover {
+			transition-duration: 0.1s;
+			background-color: #3a3a3a;
+		}
+
+		.button3:after {
+			content: "";
+			display: block;
+			position: absolute;
+			boder-radius: 4em;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transition: all 0.5s;
+			box-shadow: 0 0 10px 40px white;
+		}
+
+		.button3:active:after {
+			box-shadow: 0 0 0 0 white;
+			position: absolute;
+			border-radius: 4em;
+			left: 0;
+			top: 0;
+			opacity: 1;
+			transition: 0s:
+		}
+					
+		.button3:active {
+			top: 1px;
+		}		
+	</style>
+	</head>
+<body>
+	<a id="top"></a>
+    <br> <div class="title">
+		<h1> <center> ABOUT ME: SHAYYANNE </center> </h1>
+	</div>
+				
+	<center> <table style="6" width='1190' cellpadding="150" cellspacing="20">
+	<tr id="tr1">
+	<br>
+		<th> <h1> Personal Information </h1> </th>
+		<th colspan='2'> <h1> Educational Background </h1> </th>
+	</tr>
+	<tr>
+		<td> 
+			<br> <img src="shay1.png" class="center" width="200" height="200"/>
+			<figcaption align='center'> <br> Shayyanne Dominiq Lee Marasigan <br> 09270812643 </figcaption>
+		</td>
+			<td> <figcaption align='center'> <br>  St. Anthony School <br>
+			<br> <img src="sas.png" class="center" width="180" height="180"/> <br> Elementary <br> 2007-2015 </figcaption>
+		</td>
+			<td> <figcaption align='center'> <br>  St. Scholastica's College Manila <br>
+			<br> <img src="ssc.png" class="center" width="180" height="180"/> <br> Junior High School <br> 2015-2018 </figcaption>
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			<figcaption align='center'> <h2> Follow me on my Socials! </h2> </figcaption>
+			<a href='https://www.facebook.com/shayyannedominiq.marasigan/' target='_blank'>
+			<img src="fb.png" alt:="Facebook" style='height=110px; width:110px' align="left">
+			<center> <a href='https://www.instagram.com/shymino_/' target='_blank'>
+			<img src="pictures2/ig.png" alt:="Instagram" style='height=110px; width:110px' align="center">
+			<a href='https://twitter.com/1108ddump' target='_blank'>
+			<img src="twt.png" alt:="Twitter" style='height=110px; width:110px' align="right">				
+		</td>
+		
+		<td> <figcaption align='center'> <br>  Paco Catholic School <br>
+			<br> <img src="pcs.png" class="center" width="180" height="180"/> <br> Senior High School <br> 2019-2021 </figcaption>
+		</td>
+		
+		<td> <figcaption align='center'> <br>  Colegio de San Juan de Letran <br>
+			<br> <img src="letran.png" class="center" width="180" height="180"/> <br> College <br> 2021-Present  </figcaption>
+		</td>
+	</tr>
+	
+	<tr>
+		<td> <center> <b> <a href = "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGKZSvZDlgNQbZThKZbQnjhsNHCRlZkhFHTDgCJqtrLnxprQxbWKmMGWjHhmhxqZFMzGTdL" target='_blank'> shayyannedominiq.marasigan@letran.edu.ph </a> </b> </center> </td>
+		<td style="border: transparent; background: transparent;"> <font color="#D9C2A3"> Name: Shayyanne Dominiq Marasigan </td>
+		<td style="border: transparent; background: transparent;"> <font color='#D9C2A3'> Name: Shayyanne DOminiq Marasigan </td>
+	</tr>
+	</table>
+	
+	<br>
+	<center> <table style="5" width='1190' cellpadding="150" cellspacing="22">	
+		<tr id="tr1">
+			<th> <h1> Skills </h1> </th>
+			<th> <h1> Favorites </h1> </th>
+			<th> <h1> Hobbies </h1> </th>
+		</tr>
+	<tr>
+		<td>
+			<br> <img src="c++.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> C++ Programming Language</figcaption>
+		</td>
+		<td>
+			<br> <img src="aespa.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> aespa </figcaption>
+		</td>
+		<td> 
+			<br> <img src="music.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Listening to Music </figcaption>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<br> <img src="c.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> C Programming Language </figcaption>
+		</td>
+		<td>
+			<br> <img src="izone.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> IZ*ONE </figcaption>
+		</td>
+		<td> 
+			<br> <img src="journal.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Journaling </figcaption>
+		</td>
+	</tr>	
+	<tr>
+		<td>
+			<br> <img src="java.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Java Programming Language </figcaption>
+		</td>
+		<td>
+			<br> <img src="winner.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Winner </figcaption>
+		</td>
+		<td> 
+			<br> <img src="videditing.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Video Editing </figcaption>
+		</td>	
+	</tr>	
+	<tr>
+		<td>
+			<br> <img src="html.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> HTML </figcaption>
+		</td>
+		<td>
+			<br> <img src="aff.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Asianfanfics </figcaption>
+		</td>
+		<td> 
+			<br> <img src="kpop.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Collecting K-POP things </figcaption>
+		</td>
+	<tr>
+		<td>
+			<br> <img src="pr.png" class="center" width="180" height="180"/> <br>
+			<figcaption align='center'> Adobe Premiere Pro </figcaption>
+		</td>
+		<td>
+			<br> <img src="lits.png" class="center" width="200" height="200"/> <br>
+			<figcaption align='center'> Being a LITS Officer </figcaption>
+		</td>
+		<td> 
+			<br> <img src="vacay.png" class="center" width="200" height="200"/> <br>
+			<figcaption align='center'> Going on Vacations </figcaption>
+		</td>
+	</tr>	
+	</tr>	
+	</table>
+	
+	<br>
+	<center> <table style="6" width='1190' cellpadding="150" cellspacing="10">	
+	<tr id="tr1">
+		<th colspan="2"> <h1> Character References </h1> </th>
+		<th> <h1> Gallery </h1> </th>
+	</tr>
+	
+	<tr align="center">
+		<td colspan="2"> 
+			<b> Assoc. Prof. Cristina De Los Santos </b> <br>
+			Colegio de San Juan de Letran <br>
+			151 Muralla Street Intramuros, Manila, Philippines <br>
+			(02) 8527 7697 <br>
+			<b> cristina.delossantos@letran.edu.ph <br>
+		</td>
+		<td rowspan="3"> 
+			<a href="Gallery.html" target='_blank'>
+              <figure>
+                <img src="shay2.png" alt:="Gallery" style='width:250px'> <br>		<!-- embedded image source, alt, and style image -->
+				<figcaption align='center'> Go to Gallery </figcaption>		<!-- caption of the image and its style -->
+			  </figure>
+			</a>
+		</td>
+	</tr>	
+	<tr align="center">
+		<td colspan="2"> 
+			<b> Assoc. Prof. Maria Luisa Carlos </b> <br>
+			Colegio de San Juan de Letran <br>
+			151 Muralla Street Intramuros, Manila, Philippines <br>
+			(02) 8527 7697 <br>
+			<b> marialuisa.carlos@letran.edu.ph <br>
+		</td>
+	</tr>	
+	<tr align="center">
+		<td colspan="2">
+			<b> Assoc. Prof. Jess Christian Beronio, M.A. </b> <br>
+			Colegio de San Juan de Letran <br>
+			151 Muralla Street Intramuros, Manila, Philippines <br>
+			(02) 8527 7697 <br>
+			<b> jesschristian.beronio@letran.edu.ph <br>		
+		</td>
+	</tr>
+	</table> 
+	
+	<br> <br> <br> <br>
+	
+		<div class="button3-container">
+			<div class ="left">
+				<div class ="buttons">
+					<a href="login.html" button class ="button3" type ="button3"target='_parent'> Back to Log-In </a> </button>
+				</div>
+				</div>
+			<div class ="center">
+				<div class ="buttons">
+					<a href="home.html" button class ="button3" type ="button3" target='_parent'> Back to About the Philippines Homepage </a> </button>
+				</div>
+			</div>			
+			<div class ="right"> 
+				<div class ="buttons">
+					<a href="contactus.html" button class ="button3" type ="button3" target='_blank'> Back to Contact Us </a> </button>
+				</div>
+			</div>					
+      </div>
+	  <br> <br> <br>
+	</body>
+</html>
+
